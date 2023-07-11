@@ -1,0 +1,60 @@
+country,number_of_visit_2018,spending_per_day_2018,length_of_stay_2018,total_2018_(m)
+Canada,852,87.81,9,673
+USA,4571,114.25,8,4177
+Austria,327,96.82,5,158
+Belgium,1097,97.99,4,429
+Bulgaria,233,42.1,10,98
+Czech Republic,360,62.08,5,111
+Cyprus,108,60.29,10,65
+Denmark,614,122.94,4,301
+Finland,188,115.86,5,108
+France,3592,72.72,5,1306
+Germany,3170,86.47,5,1370
+Greece,223,66.1,9,132
+Hungary,372,44.47,7,115
+Republic of Ireland,2983,107.43,3,961
+Italy,2080,82.76,5,860
+Lithuania,322,53.6,6,103
+Luxembourg,78,97.59,6,45
+Malta,111,97.03,5,53
+Netherlands,1978,84.19,4,666
+Norway,648,127.13,5,411
+Poland,1555,37.04,7,403
+Portugal,453,61.41,6,166
+Romania,897,38.59,13,449
+Russia,229,122.99,7,197
+Slovakia,120,40.68,7,34
+Spain,2451,72.82,6,1070
+Sweden,745,117.76,5,438
+Switzerland,825,89.18,5,367
+Turkey,318,102.76,8,261
+Rest of Europe,615,79.99,6,295
+Egypt,56,112.83,9,56
+Morocco,31,147.43,5,22
+Tunisia,4,117.03,10,4
+Other North Africa,22,74.33,12,19
+South Africa,265,94.83,12,301
+Nigeria,203,78.75,18,287
+Other Africa,204,73.53,15,225
+Israel,264,123.3,7,227
+United Arab Emirates,511,195.43,9,898
+Other Middle East,651,162.46,15,1586
+Hong Kong (China),403,112.96,11,500
+Other China,1001,111.82,15,1678
+India,680,46.97,20,638
+Japan,429,146.25,8,501
+Pakistan,95,53.31,20,101
+Sri Lanka,18,88.72,18,28
+Thailand,189,89.38,19,320
+Other Asia,976,106.39,10,1038
+Australia,1039,81.67,13,1103
+New Zealand,232,89.91,13,271
+Barbados,23,25.56,19,11
+Jamaica,15,38.3,18,10
+Other Caribbean,95,95.17,10,90
+Brazil,288,106.71,8,245
+Mexico,164,80.0,7,91
+Other Central & Sth. America,302,70.82,12,256
+Rest of the World,6,28.15,18,3
+Other Countries,8167,,13,
+Total World,40283,100.46,7,28327

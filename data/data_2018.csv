@@ -1,0 +1,49 @@
+country,number_of_visit_2018,spending_per_day_2018,length_of_stay_2018,total_2018_(m),is_EU,english_spoken,visa_requirement,commonwealth,population_(m),region,income_group,gdp
+Canada,852,87.81,9,673,No,Yes,No,Yes,37.07,North America,High income,57439.86
+USA,4571,114.25,8,4177,No,Yes,No,No,326.84,North America,High income,59607.39
+Austria,327,96.82,5,158,Yes,No,No,No,8.84,Europe & Central Asia,High income,41599.0
+Belgium,1097,97.99,4,429,Yes,No,No,No,11.43,Europe & Central Asia,High income,38199.03
+Bulgaria,233,42.1,10,98,Yes,No,No,No,7.03,Europe & Central Asia,Upper middle income,13867.64
+Czech Republic,360,62.08,5,111,Yes,No,No,No,10.63,Europe & Central Asia,High income,484339.12
+Cyprus,108,60.29,10,65,Yes,No,Yes,Yes,1.22,Europe & Central Asia,High income,24497.97
+Denmark,614,122.94,4,301,Yes,No,No,No,5.79,Europe & Central Asia,High income,380553.88
+Finland,188,115.86,5,108,Yes,No,No,No,5.52,Europe & Central Asia,High income,41124.28
+France,3592,72.72,5,1306,Yes,No,No,No,67.16,Europe & Central Asia,High income,34483.33
+Germany,3170,86.47,5,1370,Yes,No,No,No,82.91,Europe & Central Asia,High income,38691.52
+Greece,223,66.1,9,132,Yes,No,No,No,10.73,Europe & Central Asia,High income,16806.92
+Hungary,372,44.47,7,115,Yes,No,No,No,9.78,Europe & Central Asia,High income,4016081.83
+Republic of Ireland,2983,107.43,3,961,Yes,No,No,No,4.87,Europe & Central Asia,High income,65199.26
+Italy,2080,82.76,5,860,Yes,No,No,No,60.42,Europe & Central Asia,High income,28475.09
+Lithuania,322,53.6,6,103,Yes,No,No,No,2.8,Europe & Central Asia,High income,14820.54
+Luxembourg,78,97.59,6,45,Yes,No,No,No,0.61,Europe & Central Asia,High income,95877.01
+Malta,111,97.03,5,53,Yes,No,No,Yes,0.48,Middle East & North Africa,High income,25107.2
+Netherlands,1978,84.19,4,666,Yes,No,No,No,17.23,Europe & Central Asia,High income,43106.14
+Norway,648,127.13,5,411,No,No,No,No,5.31,Europe & Central Asia,High income,615889.82
+Poland,1555,37.04,7,403,Yes,No,No,No,37.97,Europe & Central Asia,High income,54312.4
+Portugal,453,61.41,6,166,Yes,No,No,No,10.28,Europe & Central Asia,High income,18979.16
+Romania,897,38.59,13,449,Yes,No,No,No,19.47,Europe & Central Asia,High income,22928.34
+Russia,229,122.99,7,197,No,No,No,No,144.48,Europe & Central Asia,Upper middle income,610408.31
+Slovakia,120,40.68,7,34,Yes,No,No,No,5.45,Europe & Central Asia,High income,16059.51
+Spain,2451,72.82,6,1070,Yes,No,No,No,46.8,Europe & Central Asia,High income,25001.84
+Sweden,745,117.76,5,438,Yes,No,No,No,10.18,Europe & Central Asia,High income,446903.23
+Switzerland,825,89.18,5,367,No,No,No,No,8.51,Europe & Central Asia,High income,83492.93
+Turkey,318,102.76,8,261,No,No,Yes,No,82.81,Europe & Central Asia,Upper middle income,21211.3
+Egypt,56,112.83,9,56,No,No,Yes,No,103.74,Middle East & North Africa,Lower middle income,37119.45
+Morocco,31,147.43,5,22,No,No,No,No,35.93,Middle East & North Africa,Lower middle income,31195.38
+Tunisia,4,117.03,10,4,No,No,No,No,11.93,Middle East & North Africa,Lower middle income,7984.1
+South Africa,265,94.83,12,301,No,Yes,Yes,Yes,57.34,Sub-Saharan Africa,Upper middle income,79704.59
+Nigeria,203,78.75,18,287,No,Yes,Yes,Yes,198.39,Sub-Saharan Africa,Lower middle income,355548.13
+Israel,264,123.3,7,227,No,No,No,No,8.88,Middle East & North Africa,High income,150592.09
+United Arab Emirates,511,195.43,9,898,No,No,No,No,9.14,Middle East & North Africa,High income,164233.43
+India,680,46.97,20,638,No,Yes,Yes,Yes,1369.0,South Asia,Lower middle income,102212.42
+Japan,429,146.25,8,501,No,No,No,No,126.81,East Asia & Pacific,High income,4374353.04
+Pakistan,95,53.31,20,101,No,No,Yes,Yes,219.73,South Asia,Lower middle income,165101.56
+Sri Lanka,18,88.72,18,28,No,No,Yes,Yes,21.67,South Asia,Lower middle income,610773.35
+Thailand,189,89.38,19,320,No,No,No,No,71.13,East Asia & Pacific,Upper middle income,150337.91
+Australia,1039,81.67,13,1103,No,Yes,No,Yes,24.97,East Asia & Pacific,High income,79813.73
+New Zealand,232,89.91,13,271,No,Yes,No,Yes,4.9,East Asia & Pacific,High income,57964.63
+Barbados,23,25.56,19,11,No,Yes,No,Yes,0.28,Latin America & Caribbean,High income,32947.37
+Jamaica,15,38.3,18,10,No,Yes,Yes,Yes,2.81,Latin America & Caribbean,Upper middle income,317260.79
+Brazil,288,106.71,8,245,No,No,No,No,210.17,Latin America & Caribbean,Upper middle income,19516.2
+Mexico,164,80.0,7,91,No,No,No,No,124.01,Latin America & Caribbean,Upper middle income,149338.5
+China,1404,112.15,14,2178,No,No,Yes,No,1402.76,East Asia & Pacific,Upper middle income,59903.52
