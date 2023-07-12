@@ -11,8 +11,11 @@ the UK visitors from overseas from 2018 to 2022 were analysed based on the data 
 The outcome is shown in the file of 'slides'
 
 ## Material 
--note: files of jupyter notebook
--data: 'raw' data, 'semi_cleaned' data and 'cleaned' data
--src: python files which were used as functions on Jupyter notebook files
+-`note`: files of jupyter notebook.
+
+-`data`: 'raw' data, 'semi_cleaned' data and 'cleaned' data.
+
+-`src`: python files which were used as functions on Jupyter notebook files.
+
 
 
