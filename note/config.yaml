@@ -1,0 +1,5 @@
+data:
+  raw: "../data/raw/original_file.csv"
+  cleaned:
+  	file1: "../data/cleaned/file1.csv"
+  	file2: "../data/cleaned/file2.csv"

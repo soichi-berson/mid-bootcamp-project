@@ -1,8 +1,8 @@
 import numpy as np
 import pandas as pd
-visit = pd.read_csv('../data/cleaned_number_of_visitors.csv')
-spending = pd.read_csv('../data/cleaned_spending_per_day.csv')
-stay = pd.read_csv('../data/cleaned_length_of_stay.csv')
+visit = pd.read_csv('../data/semi_cleaned/cleaned_number_of_visitors.csv')
+spending = pd.read_csv('../data/semi_cleaned/cleaned_spending_per_day.csv')
+stay = pd.read_csv('../data/semi_cleaned/cleaned_length_of_stay.csv')
 #ata = pd.concat([visit['country'], visit['2022'],spending['2022'], stay['2022']], axis=1)
 
 def remove_total_other(df:pd.DataFrame) -> pd.DataFrame:
@@ -60,7 +60,7 @@ def creating_data(year:str):
 	data2[e] = pd.to_numeric(data2[e], errors='coerce').astype('Int64')
 	#change the column name 
 
-	name = '../data/visit_spending_length_total' + year + '.csv' 
+	name = '../data/semi_cleaned/visit_spending_length_total' + year + '.csv' 
 
 	data2.to_csv(name, index=False) 
 
@@ -102,7 +102,7 @@ def creating_data(year:str):
 	data5 = data5.drop(data5[data5['country'].isin(['Hong Kong (China)', 'Other China'])].index)
 	data5 = data5.reset_index(drop=True)
 
-	name = '../data/V_S_L_T_by_country' + year + '.csv' 
+	name = '../data/semi_cleaned/V_S_L_T_by_country' + year + '.csv' 
 	data5.to_csv(name, index=False) 
 
 	print("finished")

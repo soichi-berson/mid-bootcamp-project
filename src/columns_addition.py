@@ -13,7 +13,7 @@ def add_columns(data:pd.DataFrame, year:str) -> None:
 	'''
 
 	#eu
-	eu = pd.read_excel('../data/eu_countries.xlsx', engine="openpyxl")
+	eu = pd.read_excel('../data/raw/eu_countries.xlsx', engine="openpyxl")
 	eu = eu[ eu['Name'].isna()==False ]
 	data1 = data.copy()
 	data1['is_EU'] = data1["country"].apply(lambda x: 'Yes' if x in eu.values else "No")
@@ -21,21 +21,21 @@ def add_columns(data:pd.DataFrame, year:str) -> None:
 	
 	#Englsih spoken
 	# import the data
-	english = pd.read_excel('../data/english_spoken.xlsx', engine="openpyxl")
+	english = pd.read_excel('../data/raw/english_spoken.xlsx', engine="openpyxl")
 	english_countries = english.iloc[0:44,0]
 	data2 = data1.copy()
 	data2['english_spoken'] = data2["country"].apply(lambda x: 'Yes' if x in english_countries.values else "No")
 
 	#visa
 	# import the data
-	visa = pd.read_excel('../data/visa_requirement.xlsx', engine="openpyxl")
+	visa = pd.read_excel('../data/raw/visa_requirement.xlsx', engine="openpyxl")
 	data5 = data2.copy()
 	data5['visa_requirement'] = data5["country"].apply(lambda x: 'Yes' if x in visa.values else "No")
 
 
 	#commonwealth
 	# import the data
-	commonwealth = pd.read_excel('../data/commonwealth.xlsx', engine="openpyxl")
+	commonwealth = pd.read_excel('../data/raw/commonwealth.xlsx', engine="openpyxl")
 	data6 = data5.copy()
 
 	# Convert the elements to strings
@@ -52,7 +52,7 @@ def add_columns(data:pd.DataFrame, year:str) -> None:
 
 	#population
 	# download the file
-	population = pd.read_excel('../data/population1.xlsx', engine="openpyxl")
+	population = pd.read_excel('../data/raw/population1.xlsx', engine="openpyxl")
 	# choose the data
 	population1 = population.loc[:,['Country Name', year]]
 	population1 = population1.rename(columns={'Country Name':'country', year:'population'})
@@ -71,7 +71,7 @@ def add_columns(data:pd.DataFrame, year:str) -> None:
 
 	#region and income
 	# download the file
-	region_income = pd.read_excel('../data/region_and_income.xlsx', engine="openpyxl")
+	region_income = pd.read_excel('../data/raw/region_and_income.xlsx', engine="openpyxl")
 	merged_data2 = merged_data.copy()
 
 	#change the column names 
@@ -82,7 +82,7 @@ def add_columns(data:pd.DataFrame, year:str) -> None:
 
 	#GDP
 	# download the file
-	gdp = pd.read_excel('../data/GDP.xlsx', engine="openpyxl")
+	gdp = pd.read_excel('../data/raw/GDP.xlsx', engine="openpyxl")
 	# choose the data
 	gdp1 = gdp.loc[:,['country', year]]
 	gdp1 = gdp1.rename(columns={year:'gdp'})
