@@ -20,5 +20,5 @@ The results of analysis are shown in 'slides' file.
 -`slides`: presentation PDF and the tableau link.
 
 
-## the tableau link 
+## The tableau link 
 https://public.tableau.com/app/profile/soichiro.tanabe/viz/mid_project_UK_tourism_2018-2022/Mid-project_the_UK_tourism_2018-2022?publish=yes 
